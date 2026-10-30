@@ -8,7 +8,7 @@
 - 包名：`io.github.yuruichang.fuckcainiao`。
 - 版本：`0.2.5 (13)`。
 - 适配目标：菜鸟 `8.11.1023 (477)`。
-- 源码仓库：<https://github.com/yuruichang/FuckCainiao>。
+- 源码仓库：<https://github.com/reova/FuckCainiao>。
 - 上游来源：README 的「项目来源」节。
 - 许可证：保留 GPL-3.0 与上游提交历史。
 
