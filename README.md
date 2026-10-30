@@ -1,4 +1,4 @@
-# FuckCainiao 老余版
+# FuckCainiao
 
 [许可证](LICENSE)
 ![Android SDK min 24](https://img.shields.io/badge/Android%20SDK-%3E%3D%2024-brightgreen?style=flat-square&logo=android)
@@ -16,9 +16,9 @@
 
 ## 当前适配
 
-模块版本：`0.2.5 (13)`。适配目标：菜鸟安卓版 `8.11.1023 (477)`。
+模块版本：`0.2.6 (14)`。适配目标：菜鸟安卓版 `8.11.1023 (477)`。
 
-发布包名：`io.github.yuruichang.fuckcainiao`。这是独立维护的适配版。
+发布包名：`io.github.reova.fuckcainiao`。这是独立维护的适配版。
 使用本版时，停用原版模块，避免两个模块同时作用于菜鸟。
 
 - 底部只保留「首页」和「我的」，支持栏目动态重建。
@@ -33,7 +33,8 @@
 在 LSPosed 中启用模块，作用域只选择「菜鸟」，然后彻底停止并重新打开菜鸟。
 本次没有清除菜鸟数据。搜索页改动见 [0.2.4 验证记录](docs/search-cleanup-0.2.4.md)。
 此前的适配范围见 [0.2.3 验证记录](docs/compatibility-8.11.1023.md)。
-独立包名的检查见 [0.2.5 发布记录](docs/release-0.2.5.md)。
+当前发布包检查见 [0.2.6 发布记录](docs/release-0.2.6.md)。
+此前独立包名的检查见 [0.2.5 发布记录](docs/release-0.2.5.md)。
 
 ## 构建与检查
 
@@ -59,17 +60,23 @@ JDK 17 在中文路径下读取测试启动参数时会出现类加载错误。�
 
 ## 下载
 
-在 [GitHub Releases](https://github.com/yuruichang/FuckCainiao/releases/latest) 下载 APK。
+在 [GitHub Releases](https://github.com/reova/FuckCainiao/releases/latest) 下载 APK。
 
-安装包文件名：`FuckCainiao-0.2.5-cainiao-8.11.1023.apk`。
+安装包文件名：`FuckCainiao-0.2.6-cainiao-8.11.1023.apk`。
 
 ## 更新记录
+
+### 0.2.6
+
+- GitHub 账号改名后，包名同步为 `io.github.reova.fuckcainiao`。
+- 模块名称为「FuckCainiao」，作者信息为「老余」。
+- 使用本版时，停用 `io.github.yuruichang.fuckcainiao` 与原版模块。
+- 过滤逻辑与 0.2.5 保持一致。
 
 ### 0.2.5
 
 - 使用独立包名 `io.github.yuruichang.fuckcainiao` 发布。
 - 保留 0.2.4 的界面精简与搜索推广过滤。
-- 模块名称为「FuckCainiao 老余版」。
 
 ## 上游历史效果
 

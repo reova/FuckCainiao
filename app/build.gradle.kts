@@ -7,11 +7,11 @@ android {
     compileSdk = 36
 
     defaultConfig {
-        applicationId = "io.github.yuruichang.fuckcainiao"
+        applicationId = "io.github.reova.fuckcainiao"
         minSdk = 24
         targetSdk = 36
-        versionCode = 13
-        versionName = "0.2.5"
+        versionCode = 14
+        versionName = "0.2.6"
     }
 
     buildTypes {
