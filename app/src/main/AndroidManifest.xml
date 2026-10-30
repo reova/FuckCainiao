@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools">
 
     <application
-        android:label="FuckCainiao"
+        android:label="FuckCainiao 老余版"
         android:supportsRtl="true"
         android:theme="@android:style/Theme.DeviceDefault"
         tools:targetApi="31">
@@ -12,7 +12,7 @@
             android:value="true" />
         <meta-data
             android:name="xposeddescription"
-            android:value="优化菜鸟界面" />
+            android:value="优化菜鸟界面 · 作者：老余" />
         <meta-data
             android:name="xposedminversion"
             android:value="53" />

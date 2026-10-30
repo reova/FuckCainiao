@@ -1,10 +1,12 @@
 [versions]
 agp = "9.0.0"
 xposed-api = "82"
+junit = "4.13.2"
 #noinspection NewerVersionAvailable
 ezXHelper = "1.0.3"
 
 [libraries]
+junit = { module = "junit:junit", version.ref = "junit" }
 xposed-api = { module = "de.robv.android.xposed:api", version.ref = "xposed-api" }
 ezXHelper = { module = "com.github.kyuubiran:EzXHelper", version.ref = "ezXHelper" }
 

@@ -7,11 +7,11 @@ android {
     compileSdk = 36
 
     defaultConfig {
-        applicationId = "io.github.duzhaokun123.fuckcainiao"
+        applicationId = "io.github.yuruichang.fuckcainiao"
         minSdk = 24
         targetSdk = 36
-        versionCode = 9
-        versionName = "0.2.1"
+        versionCode = 13
+        versionName = "0.2.5"
     }
 
     buildTypes {
@@ -36,11 +36,15 @@ android {
 }
 
 kotlin {
-    jvmToolchain(11)
+    jvmToolchain(17)
+    compilerOptions {
+        jvmTarget.set(org.jetbrains.kotlin.gradle.dsl.JvmTarget.JVM_11)
+    }
 }
 
 dependencies {
     compileOnly(libs.xposed.api)
     implementation(libs.ezXHelper)
+    testImplementation(libs.junit)
 
 }
